@@ -6,7 +6,7 @@ function takeOrder(order, deliveries) {
   }
 }
 
-// Function will remove order from deliveries array. Takes two parameters: an order number (which accesses an order object) and a deliveries array
+//Function will remove order from deliveries array. Takes two parameters: an order number (which accesses an order object) and a deliveries array
 function refundOrder(orderToRefund, deliveryOrders) {
 
   for (var i = 0; i < deliveryOrders.length; i++) {
